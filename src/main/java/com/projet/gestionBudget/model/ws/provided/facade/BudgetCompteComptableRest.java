@@ -3,6 +3,7 @@ package com.projet.gestionBudget.model.ws.provided.facade;
 import java.util.List;
 import com.projet.gestionBudget.model.ws.provided.vo.BudgetCompteComptableVo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
